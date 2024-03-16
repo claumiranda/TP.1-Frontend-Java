@@ -51,7 +51,8 @@
       </header>
 
       <!-- presentación -->
-<section class="foto">
+<section class="foto d-none d-md-block">
+  <!-- <div class="d-none d-md-block"> -->
     <article class="foto__content container">
       <h3 class="foto__title">Conf BsAs</h3>
       <p class="foto__texto">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
@@ -60,6 +61,7 @@
         <a href="#info" class="fs-4 btn btn-success">Comprar Tickets</a>
       </div>
     </article>
+  </div>
   </section>
 
   <!-- MAIN -->
@@ -131,7 +133,7 @@
       </div>
       <div class="carousel-item">
 
-        <!-- Obelisco de la Ciudad de Buenos Aires -->
+         <!-- Obelisco de la Ciudad de Buenos Aires -->
         <img src="img/ciudad-de-buenos-aires.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
             <div class="fuente">
@@ -207,15 +209,22 @@
 
 <!-- Footer -->
 <footer>
+
     <div class="footer">
         <div class="fs-4 d-flex justify-content-evenly">
-          <a href="#">Preguntas frecuentes</a>
-          <a href="#">Contáctanos</a>
-          <a href="#">Prensa</a>
-          <a href="#">Conferencias</a>
-          <a href="#">Términos y condiciones</a>
-          <a href="#">Privacidad</a>
-          <a href="#">Estudiantes</a>    
+          <p class="d-inline-flex gap-1">
+          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Preguntas frecuentes</a>
+          <a class="btn btn-primary" data-bs-toggle="collapse" href="#"  role="button" aria-expanded="false" aria-controls="collapseExample">Contáctanos</a>
+          <a class="btn btn-primary" data-bs-toggle="collapse" href="#"  role="button" aria-expanded="false" aria-controls="collapseExample">Prensa</a>
+          <a class="btn btn-primary" data-bs-toggle="collapse" href="#"  role="button" aria-expanded="false" aria-controls="collapseExample">Conferencias</a>
+          <a class="btn btn-primary" data-bs-toggle="collapse" href="#"  role="button" aria-expanded="false" aria-controls="collapseExample">Términos y condiciones</a>
+          <a class="btn btn-primary" data-bs-toggle="collapse" href="#"  role="button" aria-expanded="false" aria-controls="collapseExample">Privacidad</a>
+          <a class="btn btn-primary" data-bs-toggle="collapse" href="#"  role="button" aria-expanded="false" aria-controls="collapseExample">Estudiantes</a>    
+      </div>
+    </div>
+  </p>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body">
       </div>
     </div>
       <!-- Copyrigth -->
