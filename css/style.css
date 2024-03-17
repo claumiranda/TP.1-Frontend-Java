@@ -88,24 +88,32 @@
     font-size: var(--font-small);
 }
 
+/* Palabras en fotos de carrusel */
 .fuente {
     font-size: var(--font-small);
 }
 
 .formulario {
-    margin: 0% 25%;
-    
+    margin: 0% 35%;  
+    font-size: 20px;  
+}
+
+.textarea {
+    margin: opx 35px;
 }
 
 /* Botón subir al inicio */
 .button {
-    background:#1AAB8A;
-    color: var(--ligth-font-solid);
+    background:#edcc60;
+    color: #ffffff;
     border:none;
     position:relative;
-    height:60px;
-    font-size: 1.8em;
-    padding:0 2em;
+    height:5%;
+    width: 2%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 100%;
+    padding:10px 60px;
     cursor:pointer;
     transition:800ms ease all;
     outline:none;
@@ -146,12 +154,20 @@
     padding: var(--spacing-36);
 }
 
+/* Botones carrusel */
+.footer .btn {
+    background-color: var(--dark-bg-solid);
+    color: var(--ligth-font-solid);
+    padding: 20px 40px;
+}
+
+/* Centrar items */
+.footer .carousel-item {
+    text-align: center;
+}
+
 /* Copyrigth */
 .footer__copy {
     margin-top: var(--spacing-12);
     text-align: center;
-}
-
-.footer .btn {
-    background-color: var(--dark-bg-solid);
 }
