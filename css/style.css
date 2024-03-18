@@ -71,10 +71,13 @@
      display: flex;
      flex-direction: column;
      gap: var(--spacing-20);
-     align-items: start;
+     align-items: center;
      z-index: 2;
      position: relative;
+     padding-right:15%;
+     padding-left:15%;
 }
+
 
 .foto__title {
     font-family: var(--alternative-font);
@@ -85,7 +88,7 @@
 .foto__texto {
     font-family: var(--alternative-font);
     color: var(--ligth-font-solid);
-    font-size: var(--font-small);
+    font-size: var(--font-medium);
 }
 
 /* Palabras en fotos de carrusel */
@@ -94,12 +97,13 @@
 }
 
 .formulario {
-    margin: 0% 35%;  
-    font-size: 20px;  
+    margin: 0% 15%;  
+    font-size: 20px;   
 }
 
-.textarea {
-    margin: opx 35px;
+.Textarea {
+   margin-left: 15%;
+   margin-right: 15%;
 }
 
 /* Botón subir al inicio */
